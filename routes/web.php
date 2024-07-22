@@ -43,5 +43,3 @@ Route::get('authors/{author:username}', function (User $author) {
         'posts' => $author->posts
     ]);
 });
-
-//TODO 错误处理, 去除无用css/js，适应vehicle

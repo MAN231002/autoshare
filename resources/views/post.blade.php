@@ -31,7 +31,6 @@
                                     </div>
                                     <div class="blog-single-foot">
                                         <div class="portlet light ">
-                                            <!-- STAT -->
                                             <div class="row list-separated profile-stat">
                                                 <div class="col-md-3 col-sm-4 col-xs-6">
                                                     <div class="uppercase profile-stat-title"> Price </div>
@@ -51,7 +50,6 @@
                                                 </div>
                                             
                                             </div>
-                                            <!-- END STAT -->
                                         </div>
                                     </div>
                                     

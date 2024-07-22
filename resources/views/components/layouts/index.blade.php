@@ -1,17 +1,4 @@
 <!DOCTYPE html>
-<!-- 
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.7
-Version: 4.7.5
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -104,9 +91,6 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!-- BEGIN CONTENT -->
                         {{ $slot }} 
                         <!-- END CONTENT -->
-                        <!-- BEGIN QUICK SIDEBAR -->
-                         {{-- <x-layouts.sidebar/> --}}
-                        <!-- END QUICK SIDEBAR -->
                     </div>
                     <!-- END CONTAINER -->
                 </div>
@@ -119,14 +103,11 @@ License: You must have a valid license purchased only from themeforest(the above
                 </div>
             </div>
         </div>
-        <!-- BEGIN QUICK NAV -->
-         {{-- <x-layouts.nav/> --}}
-        <!-- END QUICK NAV -->
         
         <!--[if lt IE 9]>
-<script src="../assets/global/plugins/respond.min.js"></script>
-<script src="../assets/global/plugins/excanvas.min.js"></script> 
-<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<script src="/assets/global/plugins/respond.min.js"></script>
+<script src="/assets/global/plugins/excanvas.min.js"></script> 
+<script src="/assets/global/plugins/ie8.fix.min.js"></script> 
 <![endif]-->
         <!-- BEGIN CORE PLUGINS -->
         <script src="/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
@@ -142,19 +123,9 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
         <script src="/assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
         <script src="/assets/layouts/layout3/scripts/demo.min.js" type="text/javascript"></script>
-        <!-- <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script> -->
-        <!-- <script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script> -->
         <script src="/assets/global/plugins/bootstrap-toastr/toastr.min.js" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
-        <!-- <script>
-            $(document).ready(function()
-            {
-                $('#clickmewow').click(function()
-                {
-                    $('#radio1003').attr('checked', 'checked');
-                });
-            })
-        </script> -->
+ 
         @yield('scripts')
         <x-layouts.flash />
     </body>

@@ -17,7 +17,6 @@
                         <div class="col-md-12">
                             <h1>Welcome to AutoShare</h1>
                             <h2>Your premier destination for convenient and reliable car rentals.</h2>
-                            <!-- <button type="button" class="btn btn-danger">JOIN US TODAY</button> -->
                         </div>
                     </div>
                     <!-- END CONTENT HEADER -->

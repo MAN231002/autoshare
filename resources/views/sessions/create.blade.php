@@ -29,32 +29,12 @@
                     <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password" /> </div>
                 <div class="form-actions">
                     <button type="submit" class="btn green uppercase">Login</button>
-                    <!-- <label class="rememberme check mt-checkbox mt-checkbox-outline">
-                        <input type="checkbox" name="remember" value="1" />Remember
-                        <span></span>
-                    </label> -->
                 </div>
     
-                <!-- <div class="create-account">
-                    <p>
-                        <a href="javascript:;" id="register-btn" class="uppercase">Create an account</a>
-                    </p>
-                </div> -->
             </form> 
             <!-- END LOGIN FORM -->
         </div>
         <!-- BEGIN FORGOT PASSWORD FORM -->
-        <!-- <form class="forget-form" action="index.html" method="post">
-            <h3 class="font-green">Forget Password ?</h3>
-            <p> Enter your e-mail address below to reset your password. </p>
-            <div class="form-group">
-                <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email" name="email" /> </div>
-            <div class="form-actions">
-                <button type="button" id="back-btn" class="btn green btn-outline">Back</button>
-                <button type="submit" class="btn btn-success uppercase pull-right">Submit</button>
-            </div>
-        </form> -->
-        <!-- END FORGOT PASSWORD FORM -->
     </div>
 </x-layouts.index>
 

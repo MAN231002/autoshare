@@ -10,10 +10,6 @@
                 <span class="username username-hide-mobile">{{ auth()->user()->name }}</span>
             </a>
             <ul class="dropdown-menu dropdown-menu-default">
-                <!-- <li>
-                    <a href="page_user_profile_1.html">
-                        <i class="icon-user"></i> My Profile </a>
-                </li> -->
                 <li>
                     <a href="/logout">
                         <i class="icon-key"></i> Log Out </a>
@@ -21,12 +17,6 @@
             </ul>
         </li>
         <!-- END USER LOGIN DROPDOWN -->
-        <!-- BEGIN QUICK SIDEBAR TOGGLER -->
-        <!-- <li class="dropdown dropdown-extended quick-sidebar-toggler">
-            <span class="sr-only">Toggle Quick Sidebar</span>
-            <i class="icon-logout"></i>
-        </li> -->
-        <!-- END QUICK SIDEBAR TOGGLER -->
     @else
         <!-- BEGIN USER LOGIN DROPDOWN -->
         <li class="dropdown dropdown-user dropdown-dark">
