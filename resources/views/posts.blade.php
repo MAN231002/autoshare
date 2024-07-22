@@ -16,7 +16,7 @@
                     <div class="row margin-bottom-40 about-header">
                         <div class="col-md-12">
                             <h1>Welcome to AutoShare</h1>
-                            <h2>Your premier destination for convenient and reliable car rentals.</h2>
+                            <h2>Your premier destination for convenient and reliable vehicle rentals.</h2>
                         </div>
                     </div>
                     <!-- END CONTENT HEADER -->
