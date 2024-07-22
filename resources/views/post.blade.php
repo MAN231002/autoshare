@@ -17,7 +17,7 @@
                             <div class="col-lg-9">
                                 <div class="blog-single-content bordered blog-container">
                                     <div class="blog-single-head">
-                                        <h1 class="blog-single-head-title">{{ $post->author->name }}</h1>
+                                        Posted by <h1 class="blog-single-head-title"><a href="/authors/{{$post->author->username}}">{{ $post->author->name}}</a></h1>
                                         <div class="blog-single-head-date">
                                             <i class="icon-calendar font-blue"></i>
                                             <a href="javascript:;">{{ $post->created_at }}</a>
