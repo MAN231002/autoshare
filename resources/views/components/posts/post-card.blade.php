@@ -21,7 +21,7 @@
             <div class="blog-post-foot">
                 <div class="blog-post-meta">
                     <i class="icon-user font-blue "></i>
-                    <a href="authors/{{$post->author->username}}">{{ $post->author->name}}</a>
+                    <a href="/authors/{{$post->author->username}}">{{ $post->author->name}}</a>
                 </div>
             </div>
             <div class="blog-post-foot">
